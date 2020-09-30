@@ -1,0 +1,41 @@
+* {
+    /* Faz com que a borda nao afete o tamanho da tag */
+    box-sizing: border-box;
+}
+
+a {
+    /* Para ele herdar a cor do elemento anterior */
+    color: inherit;
+    /* Pra ele remover o sublinhado do link */
+    text-decoration: none;
+}
+
+menu, menu ul, menu li {
+    display: block;
+    /* Pra tirar o efeito de lista */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h3 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+
+h1, h3, p {
+    margin: 0;
+    padding: 0;
+}
+
+img.responsive {
+    width: 100%;
+    height: auto;
+}
